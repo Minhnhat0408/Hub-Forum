@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+.cover{
+    background: url('D:/Web/Hub/hub-forum/src/assets/images/cover.png');
+    background-size: 100% auto;
+    aspect-ratio: 3402/1294;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.time-location{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1.5%;
+}
+
+.deadline-dang-ky{
+    padding: 40px 0 60px 0;
+    color: white;
+    opacity: 0.95;
+    text-shadow: 1px 1px 2px black, 0 0 25px #18448a, 0 0 5px #7bb6ff;
+}
+
+/*  */
+
+.cyberpunk-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #684cef;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    transition: background-color 0.45s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .cyberpunk-button:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0,0.2), rgba(0,0,0,0.5), rgba(0,0,0,0.2));
+    transition: left 0.45s ease;
+    z-index: 1;
+  }
+  
+  .cyberpunk-button:hover {
+    background-color: #ffffff;
+    color: #684cef;
+  }
+  
+  .cyberpunk-button:hover:before {
+    left: 100%;
+  }
+
+/* Track */
+::-webkit-scrollbar {
+    width: 4px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* Background color of the track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #777; /* Color of the scrollbar handle */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #aaa; /* Color of the scrollbar handle on hover */
+  }
+  
+  
+  
+  
+  
+  
+  
