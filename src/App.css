@@ -1,11 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
 
+body, html {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .cover{
     background: url('D:/Web/Hub/hub-forum/src/assets/images/cover.png');
     background-size: 100% auto;
     aspect-ratio: 3402/1294;
     background-repeat: no-repeat;
     background-position: center top;
+
+}
+
+.bg{
+  background: url('D:/Web/Hub/hub-forum/src/assets/images/bg3.png');
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+img {
+  user-select: none;
 }
 
 .time-location{
@@ -14,7 +29,7 @@
 }
 
 .deadline-dang-ky{
-    padding: 40px 0 60px 0;
+    padding: 20px 0 40px 0;
     color: white;
     opacity: 0.95;
     text-shadow: 1px 1px 2px black, 0 0 25px #18448a, 0 0 5px #7bb6ff;
@@ -60,7 +75,20 @@
     left: 100%;
   }
 
-/* Track */
+  .about-heading {
+    color: #fff; /* White text color */
+    text-shadow: 0 0 10px #8a2be2; /* Light purple text shadow */
+    -webkit-text-stroke: 1px #8a2be2; /* Purple border around text */
+    font-size: 60px;
+    padding: 10px 0 40px 0;
+  }
+  
+  .light-purple{
+    text-shadow: 0 0 3px #8a2be2; /* Light purple text shadow */
+    -webkit-text-stroke: 0.2px #8a2be2; /* Purple border around text */
+  }
+  
+  /* Track */
 ::-webkit-scrollbar {
     width: 4px; /* Width of the scrollbar */
   }
@@ -78,6 +106,8 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #aaa; /* Color of the scrollbar handle on hover */
   }
+
+
   
   
   

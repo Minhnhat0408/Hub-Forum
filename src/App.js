@@ -5,10 +5,14 @@ import Image from "./components/Image/Image";
 import Navbar from "./components/Navbar";
 import Reveal from "./components/Reveal/Reveal";
 import TimeLocation from "./components/TimeLocation";
+import About from "./components/About";
+import BackGround from "./components/BackGround";
+import Organization from "./components/Organization";
+import MagicNumber from "./components/MagicNumber";
 function App() {
   return (
-    <div className="App flex flex-col  items-center">
-      <Navbar />
+    <div className="App bg flex flex-col items-center h-[10000px]">
+      <Navbar/>
       <Cover>
         <Reveal
           hiddenX={-500}
@@ -22,7 +26,6 @@ function App() {
             alt="hub"
           />
         </Reveal>
-
         <div className="flex w-2/4 flex-col justify-start items-center relative h-full">
           <Reveal hiddenX={0} hiddenY={0} className={"w-1/2 mt-8"}>
             <Image src={image.sponsor} className="w-full h-fit" alt="hub" />
@@ -47,7 +50,7 @@ function App() {
               alt="hub"
             />
           </Reveal>
-          <Reveal hiddenX={0} hiddenY={400}   scale={0} className={"w-1/4 mb-2"}>
+          <Reveal hiddenX={0} hiddenY={400} scale={0} className={"w-1/4 mb-2"}>
             <Image src={image.detail} className="w-full h-fit" alt="hub" />
           </Reveal>
         </div>
@@ -73,7 +76,11 @@ function App() {
           className="text-red-400 font-bold text-7xl"
         />
       </Reveal> */}
+
+      <About />
       <TimeLocation />
+      <Organization/>
+      <MagicNumber/>
     </div>
   );
 }
