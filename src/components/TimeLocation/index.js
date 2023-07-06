@@ -10,8 +10,12 @@ function TimeLocation() {
         hiddenY={0}
         duration={1}
       >
-        <div className="uppercase font-semibold pb-4 text-[24px]">Thời gian và Địa điểm: </div>
-        <div className="uppercase pb-1 text-[16px]">8h00 - 19h00 - 15/07/2023</div>
+        <div className="uppercase font-semibold pb-4 text-[24px]">
+          Thời gian và Địa điểm:{" "}
+        </div>
+        <div className="uppercase pb-1 text-[16px]">
+          8h00 - 19h00 - 15/07/2023
+        </div>
         <div className="uppercase text-[16px]">
           Tòa nhà FPT Tower, Số 10 Phạm Văn Bạch, Cầu Giấy, Hà Nội
         </div>
@@ -21,9 +25,12 @@ function TimeLocation() {
       </Reveal>
       <Reveal className="w-[30%] h-full" hiddenX={500} hiddenY={0} duration={1}>
         <div className="flex items-center justify-center">
-          <button className="cyberpunk-button mr-20 mt-11">
+          <a
+            className="cyberpunk-button mr-20 mt-11"
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+          >
             Đăng ký ngay{" "}
-          </button>
+          </a>
         </div>
       </Reveal>
     </div>

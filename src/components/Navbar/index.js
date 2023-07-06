@@ -6,7 +6,7 @@ import Scrollspy from "react-scrollspy-highlight";
 
 function Navbar() {
   return (
-    <div className="h-20 bg-black w-full flex items-center justify-around fixed z-50">
+    <div className="h-[100px] bg-black/70 w-full flex items-center justify-around fixed z-50">
       <Image src={image.hubForum} alt="logo" className="w-60 h-fit" />
       {/* <Scrollspy
         items={["section-1", "section-2", "section-3"]}

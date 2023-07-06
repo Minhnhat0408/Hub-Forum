@@ -9,10 +9,12 @@ import About from "./components/About";
 import BackGround from "./components/BackGround";
 import Organization from "./components/Organization";
 import MagicNumber from "./components/MagicNumber";
+import Programs from "./components/Programs";
+import TimeLine from "./components/TimeLine";
 function App() {
   return (
     <div className="App bg flex flex-col items-center h-[10000px]">
-      <Navbar/>
+      <Navbar />
       <Cover>
         <Reveal
           hiddenX={-500}
@@ -79,8 +81,10 @@ function App() {
 
       <About />
       <TimeLocation />
-      <Organization/>
-      <MagicNumber/>
+      <Organization />
+      <MagicNumber />
+      <TimeLine />
+      <Programs />
     </div>
   );
 }
