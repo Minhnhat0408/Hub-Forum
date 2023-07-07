@@ -26,7 +26,7 @@ function Cover() {
             hiddenX={0}
             hiddenY={-400}
             scale={0}
-            className={"w-[100%] mt-10 flex-1"}
+            className={"w-full mt-10 flex-1"}
           >
             <Image src={image.mexecution} className="w-full h-fit" alt="hub" />
           </Reveal>

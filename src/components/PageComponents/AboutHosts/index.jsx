@@ -1,19 +1,22 @@
 import image from "../../../assets/images";
-import Image from "../../Utilites/Image"
+import Image from "../../Utilites/Image";
 import logo from "../../../assets/logo";
 
 import Reveal from "../../Utilites/Reveal";
 
 function AboutHosts() {
   return (
-    <div className="text-white w-full py-20 px-20 bg-black/60">
+    <section
+      id="doitac"
+      className="text-white overflow-x-hidden w-full pt-20 px-20 bg-black/60"
+    >
       <Reveal
         hiddenX={500}
         className="uppercase event-heading text-right text-[50px] mb-[60px]"
       >
         <h1>Các Đơn Vị Triển Khai</h1>
       </Reveal>
-      <Reveal hiddenY={200} >
+      <Reveal hiddenY={200}>
         <div className="flex justify-between ">
           <div className="flex-1 mb-20 p-6">
             <Image
@@ -101,7 +104,7 @@ function AboutHosts() {
           </div>
         </div>
       </Reveal>
-    </div>
+    </section>
   );
 }
 

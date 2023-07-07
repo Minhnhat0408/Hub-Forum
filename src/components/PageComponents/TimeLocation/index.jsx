@@ -3,7 +3,7 @@ import Reveal from "../../Utilites/Reveal";
 
 function TimeLocation() {
   return (
-    <div className="time-location overflow-x-hidden bg-transparent w-full flex items-center justify-between text-white pt-[100px] pb-[60px] px-10 leading-[30px] tracking-wide text-[20px]">
+    <section className="time-location overflow-x-hidden bg-transparent w-full flex items-center justify-between text-white py-20 px-10 leading-[30px] tracking-wide text-[20px]">
       <Reveal
         className="w-[70%] pl-10 "
         hiddenX={-500}
@@ -33,7 +33,7 @@ function TimeLocation() {
           </a>
         </div>
       </Reveal>
-    </div>
+    </section>
   );
 }
 

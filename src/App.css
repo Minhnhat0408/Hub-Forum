@@ -141,7 +141,19 @@ img {
   }
 }
 
-  
+div {
+  /* overflow-x: hidden; */
+}
+.clip{
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 25% 0);
+} 
+
+.mybefore{
+  width: 100%;
+  background-color: transparent;
+  height: 200px;
+}
   
   
   

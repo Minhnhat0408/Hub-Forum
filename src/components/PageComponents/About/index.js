@@ -1,9 +1,11 @@
-
 import "../../../App.css";
 import Reveal from "../../Utilites/Reveal";
 function About() {
   return (
-    <div className="bg-black/70 w-full text-white flex flex-col items-center justify-center tracking-wider pb-20 pt-20">
+    <section
+      id="tongquan"
+      className="bg-black/70 w-full text-white flex flex-col items-center justify-center tracking-wider pb-20 pt-20"
+    >
       <div className="w-full flex justify-center items-center flex-col">
         <Reveal className="w-full" duration={1} scale={0.7} opacity={0}>
           <h2 className="uppercase text-center font-extrabold light-purple text-[70px] mb-10">
@@ -28,7 +30,7 @@ function About() {
           </p>
         </Reveal>
       </div>
-    </div>
+    </section>
   );
 }
 

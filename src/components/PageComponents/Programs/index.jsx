@@ -1,11 +1,10 @@
-
 import image from "../../../assets/images";
-import Image from "../../Utilites/Image"
+import Image from "../../Utilites/Image";
 import Reveal from "../../Utilites/Reveal";
 
 function Programs() {
   return (
-    <div className="text-white w-full py-20 px-20">
+    <section id="chuongtrinh" className="text-white w-full py-20 px-20">
       <Reveal
         hiddenX={-500}
         className="uppercase event-heading text-left text-[50px] mb-[60px]"
@@ -27,9 +26,9 @@ function Programs() {
             <div className="flex items-start mb-2">
               <Image src={image.ball} className="w-4 h-4 mr-2 mt-1" />
               <p className="  text-slate-300 leading-7">
-                Trao học bổng Trường TH, THCS và THPT Hy Vọng cho các học sinh có
-                cha, mẹ, người giám hộ hoặc cả cha và mẹ mất do Covid- 19, có hoàn
-                cảnh khó khăn
+                Trao học bổng Trường TH, THCS và THPT Hy Vọng cho các học sinh
+                có cha, mẹ, người giám hộ hoặc cả cha và mẹ mất do Covid- 19, có
+                hoàn cảnh khó khăn
               </p>
             </div>
           </div>
@@ -52,7 +51,8 @@ function Programs() {
             <div className="flex items-start mb-2">
               <Image src={image.ball} className="w-4 h-4 mr-2 mt-1" />
               <p className="  text-slate-300 leading-7">
-                Các bên Khởi nghiệp xã hội cần làm gì để thích ứng với công nghệ?
+                Các bên Khởi nghiệp xã hội cần làm gì để thích ứng với công
+                nghệ?
               </p>
             </div>
           </div>
@@ -99,7 +99,7 @@ function Programs() {
           </div>
         </div>
       </Reveal>
-    </div>
+    </section>
   );
 }
 
