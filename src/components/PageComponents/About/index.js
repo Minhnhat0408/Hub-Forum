@@ -13,7 +13,7 @@ function About() {
           </h2>
         </Reveal>
         <Reveal
-          className="w-[55%] flex justify-center relative"
+          className="w-[55%] flex justify-center relative my-10"
           duration={1}
           scale={0.7}
           opacity={0}

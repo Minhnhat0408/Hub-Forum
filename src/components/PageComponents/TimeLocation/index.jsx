@@ -1,9 +1,10 @@
+import { forwardRef } from "react";
 import "../../../App.css";
 import Reveal from "../../Utilites/Reveal";
 
-function TimeLocation() {
+const TimeLocation = forwardRef(({children},ref) => {
   return (
-    <section className="time-location overflow-x-hidden bg-transparent w-full flex items-center justify-between text-white py-20 px-10 leading-[30px] tracking-wide text-[20px]">
+    <section  className="time-location overflow-x-hidden bg-transparent w-full flex items-center justify-between text-white py-20 px-10 leading-[30px] tracking-wide text-[20px]">
       <Reveal
         className="w-[70%] pl-10 "
         hiddenX={-500}
@@ -24,9 +25,9 @@ function TimeLocation() {
         </h2>
       </Reveal>
       <Reveal className="w-[30%] h-full" hiddenX={500} hiddenY={0} duration={1}>
-        <div className="flex items-center justify-center">
+        <div ref={ref} className="flex items-center justify-center shake-button">
           <a
-            className="cyberpunk-button mr-20 mt-11"
+            className="cyberpunk-button mr-20 "
             href="https://hubglobal.network/"
           >
             Đăng ký ngay
@@ -35,6 +36,6 @@ function TimeLocation() {
       </Reveal>
     </section>
   );
-}
+})
 
 export default TimeLocation;

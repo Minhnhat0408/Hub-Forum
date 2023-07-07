@@ -18,18 +18,19 @@ function TLComp({ left = true,title,time,detail = [] }) {
               style={{ boxShadow: "0 0 15px 8px #8a2be2" }}
               className="flex flex-col p-6 bg-transparent text-white w-3/4 border-4 border-purple-500 rounded-xl before:absolute before:w-8 before:h-8 before:bg-white before:rotate-45 before:right-[-16px]"
             >
-              <h3 className="font-bold text-xl ">
-                {title}
-              </h3>
-              <div className="italic flex items-center my-2">
+              
+              <h3 className="font-bold text-xl flex items-center ">
                 <FontAwesomeIcon
                   icon={faClock}
                   className="font-xl text-white mx-2"
                 />
                 <span>{time}</span>
+              </h3>
+              <div className=" italic my-2 text-lg">
+                {title}
               </div>
-              <div className="flex flex-col">{ detail.map((d) => {
-                return <div className="flex items-start mb-2">
+              <div className="flex flex-col">{ detail.map((d,id) => {
+                return <div key={id} className="flex items-start mb-2">
                 <Image src={image.ball} className="w-4 h-4 mr-2 mt-1" />
                 <p className="  text-slate-300 leading-7">
                   {d}
@@ -49,18 +50,18 @@ function TLComp({ left = true,title,time,detail = [] }) {
               style={{ boxShadow: "0 0 15px 8px #8a2be2" }}
               className=" flex flex-col p-6 bg-transparent text-white w-3/4 border-4 border-purple-500 rounded-xl before:absolute before:w-8 before:h-8 before:bg-white before:rotate-45 before:left-[-16px]"
             >
-              <h3 className="font-bold text-xl ">
-              {title}
-              </h3>
-              <div className="italic flex items-center my-2">
+              <h3 className="font-bold text-xl flex items-center ">
                 <FontAwesomeIcon
                   icon={faClock}
                   className="font-xl text-white mx-2"
                 />
                 <span>{time}</span>
+              </h3>
+              <div className=" italic my-2 text-lg">
+                {title}
               </div>
-              <div className="flex flex-col">{ detail.map((d) => {
-                return <div className="flex items-start mb-2">
+              <div className="flex flex-col">{ detail.map((d,id) => {
+                return <div key={id} className="flex items-start mb-2">
                 <Image src={image.ball} className="w-4 h-4 mr-2 mt-1" />
                 <p className="  text-slate-300 leading-7">
                   {d}

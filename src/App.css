@@ -44,14 +44,17 @@ img {
 }
 
 /*  */
-
+.cyberpunk-button.small {
+  font-size: 16px;
+    padding: 10px 20px;
+}
 .cyberpunk-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 16px 26px;
     background-color: #684cef;
     border: none;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -163,7 +166,16 @@ div {
   height: 200px;
 }
   
-  
+
+.shake-button {
+  animation: shake 1.5s  infinite;
+}
+
+@keyframes shake {
+  0%, 30%, 100% { transform: rotate(0); }
+   5%, 15% { transform: rotate(-5deg); }
+  10%, 20% { transform: rotate(5deg); }
+}
   
   
   

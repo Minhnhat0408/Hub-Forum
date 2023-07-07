@@ -8,13 +8,28 @@ import Programs from "./components/PageComponents/Programs";
 import TimeLine from "./components/PageComponents/TimeLine";
 import AboutHosts from "./components/PageComponents/AboutHosts";
 import Contact from "./components/PageComponents/Contact";
+import { useInView } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
 function App() {
+  const dangki = useRef(null);
+  const [show,setShow] = useState(true)
+  const isInView = useInView(dangki)
+
+  useEffect(() =>{
+    if(isInView) {
+      setShow(false);
+    }else{
+      setShow(true)
+    }
+
+  }
+  ,[isInView])
   return (
     <div className="App bg flex flex-col items-center h-fit">
-      <Navbar />
+      <Navbar showApply={show} />
       <Cover />
       <About />
-      <TimeLocation />
+      <TimeLocation ref={dangki}/>
       <Organization />
       <MagicNumber />
       <TimeLine />

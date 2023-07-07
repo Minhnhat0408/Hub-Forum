@@ -20,8 +20,11 @@ function Reveal({
   const slideControls = useAnimation();
   useEffect(() => {
     if (isInView) {
+  
       mainControls.start("visible");
       slideControls.start("visible");
+   
+     
     }
   }, [isInView]);
 
@@ -34,6 +37,7 @@ function Reveal({
         }}
         initial={initial}
         animate={mainControls}
+        exit={'hidden'}
         transition={{ duration: duration, delay: delay }}
       >
         {children}

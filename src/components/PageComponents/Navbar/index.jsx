@@ -1,10 +1,14 @@
 import image from "../../../assets/images";
 import Image from "../../Utilites/Image";
 import Scrollspy from "react-scrollspy-highlight";
+import Reveal from "../../Utilites/Reveal";
+import { useEffect, useState } from "react";
+import { AnimatePresence } from "framer-motion";
 
-function Navbar() {
+function Navbar({showApply}) {
+
   return (
-    <div className="h-[80px] bg-black/70 w-full flex items-center justify-around fixed z-50 pl-10 pr-20">
+    <div className="h-[80px] bg-black/70 w-full flex items-center fixed z-50 pl-10 pr-20">
       <Image
         src={image.hubForum}
         alt="logo"
@@ -39,6 +43,18 @@ function Navbar() {
           <a className="h-full" href="#lienhe">Liên hệ</a>
         </li>
       </Scrollspy>
+      <AnimatePresence initial={false} onExitComplete={() => null}>
+        {showApply && <Reveal className="w-100% h-fit" hiddenY={20} duration={0.3}>
+          <div className="flex items-center justify-center ">
+            <a
+              className="cyberpunk-button small mr-20 whitespace-nowrap "
+              href="https://hubglobal.network/"
+            >
+              Đăng ký ngay
+            </a>
+          </div>
+        </Reveal>}
+      </AnimatePresence>
     </div>
   );
 }
