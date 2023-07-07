@@ -15,7 +15,7 @@ function TLComp({ left = true,title,time,detail = [] }) {
         <>
           <div className="h-full w-1/2 p-6 pr-14 flex justify-end relative ">
             <div
-              style={{ boxShadow: "0 0 15px 8 px #8a2be2" }}
+              style={{ boxShadow: "0 0 15px 8px #8a2be2" }}
               className="flex flex-col p-6 bg-transparent text-white w-3/4 border-4 border-purple-500 rounded-xl before:absolute before:w-8 before:h-8 before:bg-white before:rotate-45 before:right-[-16px]"
             >
               <h3 className="font-bold text-xl ">
@@ -46,7 +46,7 @@ function TLComp({ left = true,title,time,detail = [] }) {
         <>
           <div className="h-full w-1/2 p-6 pl-14 flex justify-start relative">
             <div
-              style={{ boxShadow: "0 0 15px 0 #8a2be2" }}
+              style={{ boxShadow: "0 0 15px 8px #8a2be2" }}
               className=" flex flex-col p-6 bg-transparent text-white w-3/4 border-4 border-purple-500 rounded-xl before:absolute before:w-8 before:h-8 before:bg-white before:rotate-45 before:left-[-16px]"
             >
               <h3 className="font-bold text-xl ">

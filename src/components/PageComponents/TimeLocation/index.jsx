@@ -27,9 +27,9 @@ function TimeLocation() {
         <div className="flex items-center justify-center">
           <a
             className="cyberpunk-button mr-20 mt-11"
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+            href="https://hubglobal.network/"
           >
-            Đăng ký ngay{" "}
+            Đăng ký ngay
           </a>
         </div>
       </Reveal>
