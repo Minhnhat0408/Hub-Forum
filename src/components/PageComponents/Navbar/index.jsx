@@ -1,8 +1,7 @@
-import image from "../../assets/images";
-import Image from "../Image/Image";
-import Scrollspy from "react-scrollspy-highlight";
 
-// const parts = [{}]
+import image from "../../../assets/images";
+import Image from "../../Utilites/Image"
+
 
 function Navbar() {
   return (

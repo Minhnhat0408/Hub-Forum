@@ -1,8 +1,7 @@
-import logo from "../../assets/logo";
-import Counter from "../Counter";
-import Image from "../Image/Image";
-import Reveal from "../Reveal/Reveal";
-import "../../App.css";
+
+import Counter from "../../Utilites/Counter";
+import "../../../App.css";
+import Reveal from "../../Utilites/Reveal";
 function MagicNumber() {
   return (
 

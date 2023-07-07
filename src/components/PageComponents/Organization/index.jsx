@@ -1,10 +1,10 @@
-import image from "../../assets/images";
-import Image from "../Image/Image";
-import Reveal from "../Reveal/Reveal";
-import logo from "../../assets/logo";
+import "../../../App.css";
+import logo from "../../../assets/logo";
+import Image from "../../Utilites/Image"
+import Reveal from "../../Utilites/Reveal";
 function Organization() {
   return (
-    <div className="flex flex-wrap text-white justify-between items-center w-full bg-black/70 h-[52vh] px-10 py-20">
+    <div className="flex flex-wrap text-white justify-between items-center w-full bg-black/60 h-[52vh] px-10 py-20">
       <Reveal duration={2} opacity={0} delay={0.5} className="w-[20%]">
         <div className="w-full flex flex-col items-center">
           <h2 className="text-[30px] pb-8">ĐƠN VỊ CHỈ ĐẠO</h2>

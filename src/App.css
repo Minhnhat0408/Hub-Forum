@@ -113,8 +113,8 @@ img {
 
 .horizontal-bar {
   position: relative;
-  height: 2px;
-
+  height: 4px;
+  border-radius:4px;
   /* background-color: #e6cfff; Light purple color */
   overflow: hidden;
 }

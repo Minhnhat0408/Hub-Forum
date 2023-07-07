@@ -1,5 +1,5 @@
-import "../../App.css";
-import Reveal from "../Reveal/Reveal";
+import "../../../App.css";
+import Reveal from "../../Utilites/Reveal";
 
 function TimeLocation() {
   return (

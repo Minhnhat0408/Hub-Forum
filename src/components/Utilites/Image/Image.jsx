@@ -1,5 +1,5 @@
 import { useState, forwardRef } from "react";
-import image from "../../assets/images";
+import image from "../../../assets/images";
 
 const Image = forwardRef(
   ({ src, alt, className, fallBack = image.noImage, ...props }, ref) => {
