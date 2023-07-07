@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
 
+@font-face {
+  font-family: Nokia;
+  src: url('./assets/fonts/Nokia.ttf');
+  font-weight: 600;
+}
+.font-nokia{
+  font-family:Nokia;
+}
 body, html {
   font-family: 'Montserrat', sans-serif;
 }

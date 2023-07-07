@@ -7,7 +7,7 @@ function Programs() {
     <section id="chuongtrinh" className="text-white w-full py-20 px-20">
       <Reveal
         hiddenX={-500}
-        className="uppercase event-heading text-left text-[50px] mb-[60px]"
+        className="uppercase event-heading font-nokia text-left text-[40px] mb-[60px]"
       >
         <h1>Các chương trình</h1>
       </Reveal>

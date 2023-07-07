@@ -12,7 +12,7 @@ function AboutHosts() {
     >
       <Reveal
         hiddenX={500}
-        className="uppercase event-heading text-right text-[50px] mb-[60px]"
+        className="uppercase event-heading text-right font-nokia text-[40px] mb-[60px]"
       >
         <h1>Các Đơn Vị Triển Khai</h1>
       </Reveal>

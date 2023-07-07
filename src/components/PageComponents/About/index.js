@@ -8,7 +8,7 @@ function About() {
     >
       <div className="w-full flex justify-center items-center flex-col">
         <Reveal className="w-full" duration={1} scale={0.7} opacity={0}>
-          <h2 className="uppercase text-center font-extrabold light-purple text-[70px] mb-10">
+          <h2 className="uppercase text-center font-extrabold event-heading font-nokia text-[50px] mb-10">
             Tổng quan
           </h2>
         </Reveal>
