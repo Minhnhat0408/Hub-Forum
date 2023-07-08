@@ -2,11 +2,11 @@ import { forwardRef } from "react";
 import "../../../App.css";
 import Reveal from "../../Utilites/Reveal";
 
-const TimeLocation = forwardRef(({children},ref) => {
+const TimeLocation = forwardRef(({ children }, ref) => {
   return (
-    <section  className="time-location overflow-x-hidden bg-transparent w-full flex items-center justify-between text-white py-20 px-10 leading-[30px] tracking-wide text-[20px]">
+    <section className="time-location bg-transparent w-full flex xl:flex-col xl:justify-center items-center justify-between text-white py-20 px-10 leading-[30px] tracking-wide text-[20px] xl:!px-4">
       <Reveal
-        className="w-[70%] pl-10 "
+        className="w-[70%] pl-10 xl:text-center xl:!w-[90%] xl:pl-0"
         hiddenX={-500}
         hiddenY={0}
         duration={1}
@@ -24,12 +24,21 @@ const TimeLocation = forwardRef(({children},ref) => {
           Hạn đăng ký: 12h00 ngày 17/7/2023
         </h2>
       </Reveal>
-      <Reveal className="w-[30%] h-full" hiddenX={500} hiddenY={0} duration={1}>
-        <div ref={ref} className="flex items-center justify-center shake-button whitespace-nowrap">
+      <Reveal
+        className="w-[30%] h-full xl:w-full"
+        hiddenX={500}
+        hiddenY={0}
+        duration={1}
+      >
+        <div
+          ref={ref}
+          className="flex items-center justify-center shake-button whitespace-nowrap"
+        >
           <a
-            className="cyberpunk-button mr-20 "
+            className="cyberpunk-button xl:!overflow-visible mr-20 xl:mr-0  "
             href="https://docs.google.com/forms/d/e/1FAIpQLSeLvBYW50TyuCLsrWlVxI0tvcPW-p47fJ3XP-52NYUbDawhsg/viewform"
             target="_blank"
+            rel="noreferrer"
           >
             <p className="lg:text-base">Đăng ký ngay</p>
           </a>
@@ -37,6 +46,6 @@ const TimeLocation = forwardRef(({children},ref) => {
       </Reveal>
     </section>
   );
-})
+});
 
 export default TimeLocation;

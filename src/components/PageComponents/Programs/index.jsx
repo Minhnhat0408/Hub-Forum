@@ -4,17 +4,20 @@ import Reveal from "../../Utilites/Reveal";
 
 function Programs() {
   return (
-    <section id="chuongtrinh" className="text-white w-full py-20 px-20">
+    <section
+      id="chuongtrinh"
+      className="text-white w-full py-20 px-20 xl-max:px-7 phone:!px-[1px] sm-max:!py-8"
+    >
       <Reveal
         hiddenX={-500}
-        className="uppercase event-heading font-nokia text-left text-[40px] mb-[60px]"
+        className="uppercase event-heading font-nokia text-left text-[40px] mb-[60px] xl:text-[30px] xl:text-center sm-max:!text-[21px] sm2-max:mt-10"
       >
         <h1>Các chương trình</h1>
       </Reveal>
       <Reveal hiddenY={200}>
-        <div className="flex flex-wrap justify-between">
-          <div className="w-[40%] mb-20">
-            <h3 className="font-bold text-xl mb-7 w-[90%]">
+        <div className="flex flex-wrap justify-between phone:px-3">
+          <div className="w-[40%] sm2-max:w-full xl:w-[45%] mb-20">
+            <h3 className="font-bold text-xl sm2-max:ml-1 mb-7 w-[90%] sm2-max:w-full sm2-max:text-base">
               Trao đổi học sinh trường TH, THCS và THPT Hy Vọng
             </h3>
             <div className="flex items-start mb-2">
@@ -32,8 +35,8 @@ function Programs() {
               </p>
             </div>
           </div>
-          <div className="w-[40%] mb-20">
-            <h3 className="font-bold text-xl mb-7 w-[90%]">
+          <div className="w-[40%] sm2-max:w-full xl:w-[45%] mb-20">
+            <h3 className="font-bold text-xl sm2-max:ml-1 mb-7 w-[90%] sm2-max:w-full sm2-max:text-base">
               Hội thảo: Thu hút đầu tư trong thị trường đỏ lửa
             </h3>
             <div className="flex items-start mb-2">
@@ -56,8 +59,8 @@ function Programs() {
               </p>
             </div>
           </div>
-          <div className="w-[40%] mb-20">
-            <h3 className="font-bold text-xl mb-7 w-[90%]">
+          <div className="w-[40%] sm2-max:w-full xl:w-[45%] mb-20">
+            <h3 className="font-bold text-xl sm2-max:ml-1 mb-7 w-[90%] sm2-max:w-full sm2-max:text-base">
               Hội thảo Web3.0 và đột phá trong lĩnh vực công nghệ tài chính
             </h3>
             <div className="flex items-start mb-2">
@@ -79,10 +82,12 @@ function Programs() {
               </p>
             </div>
           </div>
-          <div className="w-[40%] mb-20">
-            <h3 className="font-bold text-xl mb-7 w-[90%]">
+          <div className="w-[40%] sm2-max:w-full xl:w-[45%] mb-20">
+            <h3 className="font-bold text-xl sm2-max:ml-1 mb-7 w-[90%] sm2-max:w-full sm2-max:text-base">
               Hội thảo Ngôn ngữ của Dữ liệu
-              <p className="text-transparent">Hội thảo Ngôn ngữ của Dữ liệu</p>
+              <p className="text-transparent xl:hidden">
+                Hội thảo Ngôn ngữ của Dữ liệu
+              </p>
             </h3>
             <div className="flex items-start mb-2">
               <Image src={image.ball} className="w-4 h-4 mr-2 mt-1" />
