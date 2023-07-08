@@ -12,10 +12,10 @@ const TimeLocation = forwardRef(({children},ref) => {
         duration={1}
       >
         <div className="uppercase font-semibold pb-4 text-[24px]">
-          Thời gian và Địa điểm:{" "}
+          Thời gian và Địa điểm:
         </div>
         <div className="uppercase pb-1 text-[16px]">
-          8h00 - 19h00 - 15/07/2023
+          8h00 - 19h00 - 19/07/2023
         </div>
         <div className="uppercase text-[16px]">
           Tòa nhà FPT Tower, Số 10 Phạm Văn Bạch, Cầu Giấy, Hà Nội
