@@ -5,9 +5,9 @@ import Reveal from "../../Utilites/Reveal";
 function MagicNumber() {
   return (
 
-      <div className="flex justify-around text-white w-full py-20 px-10">
-        <Reveal className="w-[30%]">
-          <div className="w-full flex flex-col items-center">
+      <div className="flex lgx-max:flex-wrap justify-around text-white w-full py-20 px-10 lgx-max:h-full">
+        <Reveal className="w-[30%] lgx-max:w-1/3 sm-max:!w-full">
+          <div className="w-full flex flex-col items-center whitespace-nowrap ">
             <Counter
               from={0}
               to={22}
@@ -17,8 +17,8 @@ function MagicNumber() {
             />
           </div>
         </Reveal>
-        <Reveal className="w-[30%]">
-          <div className="w-full flex flex-col items-center">
+        <Reveal className="w-[30%] lgx-max:w-1/3 sm-max:!w-full sm-max:mt-16">
+          <div className="w-full flex flex-col items-center whitespace-nowrap ">
             <Counter
               from={0}
               to={400}
@@ -28,8 +28,8 @@ function MagicNumber() {
             />
           </div>
         </Reveal>
-        <Reveal className="w-[30%]">
-          <div className="w-full flex flex-col items-center">
+        <Reveal className="w-[30%] lgx-max:w-1/2 lgx-max:mt-16 sm-max:!w-full">
+          <div className="w-full flex flex-col items-center whitespace-nowrap ">
             <Counter
               from={0}
               to={40}

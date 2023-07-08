@@ -12,6 +12,7 @@ module.exports = {
         "md-max": { max: "767px" },
         "lg-max": { max: "1023px" },
         "lgx-max": { max: "1050px" },
+        "lg-min":{max:'819px'},
         "xl-max": { max: "1279px" },
         "sm2-max": { max: "716px" },
         "lg-between": { max: "1050px", min: "940px" },

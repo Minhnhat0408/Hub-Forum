@@ -7,13 +7,13 @@ function TimeLine() {
       className="flex flex-col w-full items-center bg-black/60 py-20"
     >
       <div className="flex flex-col w-fit">
-        <p className="font-bold text-[50px] event-heading font-nokia text-white ">
+        <p className="font-bold text-[50px] event-heading font-nokia text-white phone:text-[30px] ">
           Time Line
         </p>  
         <span className="horizontal-bar"></span>
       </div>
       <Reveal hiddenY={100} className="w-full">
-        <div className="flex flex-col w-full items-center my-24 relative ">
+        <div className="flex flex-col w-full items-center my-24 relative sm-max:items-start">
           <TLComp
             title={"Khai mạc Đại hội Global Shapers Hanoi Hub - HUB Forum"}
             time={"8h30 - 9h00"}
@@ -75,7 +75,7 @@ function TimeLine() {
             ]}
           />
           <TLComp left={false} title={"Bế mạc"} time={"17h30- 17h40"} />
-          <div className="absolute top-0 bottom-0 w-1 bg-white rounded-full"></div>
+          <div className="absolute top-0 bottom-0 w-1 bg-white rounded-full sm-max:left-12 "></div>
         </div>
       </Reveal>
     </section>

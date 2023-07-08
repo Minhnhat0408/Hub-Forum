@@ -8,21 +8,21 @@ function AboutHosts() {
   return (
     <section
       id="doitac"
-      className="text-white overflow-x-hidden w-full pt-20 px-20 bg-black/60"
+      className="text-white overflow-x-hidden w-full pt-20 px-20 xl:px-7 bg-black/60"
     >
       <Reveal
         hiddenX={500}
-        className="uppercase event-heading text-right font-nokia text-[40px] mb-[60px]"
+        className="uppercase event-heading text-right font-nokia text-[40px] mb-[60px]  xl:text-[30px] xl:text-center sm-max:!text-[21px] sm2-max:mt-10"
       >
         <h1>Các Đơn Vị Triển Khai</h1>
       </Reveal>
       <Reveal hiddenY={200}>
-        <div className="flex justify-between ">
-          <div className="flex-1 mb-20 p-6">
+        <div className="flex justify-between flex-wrap ">
+          <div className="w-1/3 mb-20 sm2-max:mb-10 p-6 sm2-max:!w-full flex flex-col ">
             <Image
               src={logo.three}
               alt="logo"
-              className="w-[30%] h-auto transform transition duration-500 hover:scale-125"
+              className="w-40 sm2-max:w-2/3 sm2-max:self-center  h-auto transform transition duration-500 hover:scale-125"
             />
 
             <h3 className="font-bold text-xl mb-7 w-[90%]">Hub NetWork</h3>
@@ -47,11 +47,11 @@ function AboutHosts() {
               </p>
             </div>
           </div>
-          <div className="flex-1 mb-20 p-6">
+          <div className="w-1/3 mb-20 sm2-max:mb-10 p-6 sm2-max:!w-full flex flex-col">
             <Image
               src={logo.hubglobal}
               alt="logo"
-              className="w-[30%] h-auto transform transition duration-500 hover:scale-125"
+              className="w-40 sm2-max:w-2/3 sm2-max:self-center sm2-max:h-auto transform transition duration-500 hover:scale-125"
             />
             <h3 className="font-bold text-xl mb-7 w-[90%]">Hub Global</h3>
             <div className="flex items-start mb-2">
@@ -73,11 +73,11 @@ function AboutHosts() {
               </p>
             </div>
           </div>
-          <div className="flex-1 mb-20 p-6">
+          <div className="w-1/3 mb-20 sm2-max:mb-10 p-6 sm2-max:!w-full flex flex-col">
             <Image
               src={logo.five}
               alt="logo"
-              className="w-[30%] h-auto transform transition duration-500 hover:scale-125"
+              className="w-40 sm2-max:w-2/3 sm2-max:self-center sm2-max:h-auto transform transition duration-500 hover:scale-125"
             />
             <h3 className="font-bold text-xl mb-7 w-[90%]">
               Global Shapers Community

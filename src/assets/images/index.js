@@ -7,7 +7,6 @@ const image = {
   texecution: require("./the execution.png"),
   sponsor: require("./sponsor.png"),
   detail: require('./detail.png'),
-  stickyBg:require('./bg.png'),
   ava: require('./ava.png'),
   ball:require('./ball.png')
 };
