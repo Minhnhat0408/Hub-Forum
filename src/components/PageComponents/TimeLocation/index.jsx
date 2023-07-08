@@ -21,16 +21,17 @@ const TimeLocation = forwardRef(({children},ref) => {
           Tòa nhà FPT Tower, Số 10 Phạm Văn Bạch, Cầu Giấy, Hà Nội
         </div>
         <h2 className="deadline-dang-ky font-semibold text-[24px]">
-          Hạn đăng ký: 12h00 ngày 21/12/2022
+          Hạn đăng ký: 12h00 ngày 17/7/2023
         </h2>
       </Reveal>
       <Reveal className="w-[30%] h-full" hiddenX={500} hiddenY={0} duration={1}>
-        <div ref={ref} className="flex items-center justify-center shake-button">
+        <div ref={ref} className="flex items-center justify-center shake-button whitespace-nowrap">
           <a
             className="cyberpunk-button mr-20 "
-            href="https://hubglobal.network/"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeLvBYW50TyuCLsrWlVxI0tvcPW-p47fJ3XP-52NYUbDawhsg/viewform"
+            target="_blank"
           >
-            Đăng ký ngay
+            <p className="lg:text-base">Đăng ký ngay</p>
           </a>
         </div>
       </Reveal>

@@ -13,20 +13,14 @@ body, html {
 }
 
 .cover{
-    background: url('./assets/images/cover.png');
-    background-size: 100% auto;
     aspect-ratio: 3402/1294;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position:top 80px center;
+    background-attachment: fixed;
 
 }
 
-.bg{
-  background: url('./assets/images/bg3.png');
-  background-size: 100% 100vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+
 img {
   user-select: none;
 }
@@ -44,9 +38,14 @@ img {
 }
 
 /*  */
+
 .cyberpunk-button.small {
   font-size: 16px;
     padding: 10px 20px;
+}
+.cyberpunk-button.smaller {
+  font-size: 12px;
+    padding: 6px 14px;
 }
 .cyberpunk-button {
     display: inline-block;
