@@ -8,7 +8,7 @@ function AboutHosts() {
   return (
     <section
       id="doitac"
-      className="text-white overflow-x-hidden w-full pt-20 px-20 xl:px-7 bg-black/60"
+      className="text-white overflow-hidden w-full pt-20 px-20 xl:px-7 bg-black/60"
     >
       <Reveal
         hiddenX={500}
@@ -25,7 +25,7 @@ function AboutHosts() {
               className="w-40 sm2-max:w-2/3 sm2-max:self-center  h-auto transform transition duration-500 hover:scale-125"
             />
 
-            <h3 className="font-bold text-xl mb-7 w-[90%]">Hub NetWork</h3>
+            <h3 className="font-bold text-xl mb-7 w-[90%] whitespace-nowrap">Hub NetWork</h3>
             <div className="flex items-start mb-2">
               <Image src={image.ball} className="w-4 h-4 mr-2 mt-1" />
               <p className="  text-slate-300 leading-7">
@@ -53,7 +53,7 @@ function AboutHosts() {
               alt="logo"
               className="w-40 sm2-max:w-2/3 sm2-max:self-center sm2-max:h-auto transform transition duration-500 hover:scale-125"
             />
-            <h3 className="font-bold text-xl mb-7 w-[90%]">Hub Global</h3>
+            <h3 className="font-bold text-xl mb-7 w-[90%] whitespace-nowrap">Hub Global</h3>
             <div className="flex items-start mb-2">
               <Image src={image.ball} className="w-4 h-4 mr-2 mt-1" />
               <p className="  text-slate-300 leading-7">
@@ -79,7 +79,7 @@ function AboutHosts() {
               alt="logo"
               className="w-40 sm2-max:w-2/3 sm2-max:self-center sm2-max:h-auto transform transition duration-500 hover:scale-125"
             />
-            <h3 className="font-bold text-xl mb-7 w-[90%]">
+            <h3 className="font-bold text-xl mb-7 w-[90%] whitespace-nowrap">
               Global Shapers Community
             </h3>
             <div className="flex items-start mb-2">

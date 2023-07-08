@@ -12,22 +12,24 @@ import { useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 function App() {
   const dangki = useRef(null);
-  const [show, setShow] = useState(true);
-  const isInView = useInView(dangki);
+  const [show,setShow] = useState(true)
+  const isInView = useInView(dangki)
 
-  useEffect(() => {
-    if (isInView) {
+  useEffect(() =>{
+    if(isInView) {
       setShow(false);
-    } else {
-      setShow(true);
+    }else{
+      setShow(true)
     }
-  }, [isInView]);
+
+  }
+  ,[isInView])
   return (
-    <div className="App overflow-x-hidden bg-[url('./assets/images/bg3.png')] bg-no-repeat bg-fixed bg-[length:100%_100vh] lg:bg-top lg:bg-[length:auto_100vh]  flex flex-col items-center h-fit">
+    <div className="App bg-[url('./assets/images/bg3.png')] bg-no-repeat bg-fixed bg-[length:100%_100vh] lg:bg-top lg:bg-[length:auto_100vh]  flex flex-col items-center h-fit">
       <Navbar showApply={show} />
       <Cover />
       <About />
-      <TimeLocation ref={dangki} />
+      <TimeLocation ref={dangki}/>
       <Organization />
       <MagicNumber />
       <TimeLine />

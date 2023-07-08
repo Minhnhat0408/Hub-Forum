@@ -32,10 +32,10 @@ const TimeLocation = forwardRef(({ children }, ref) => {
       >
         <div
           ref={ref}
-          className="flex items-center justify-center shake-button whitespace-nowrap"
+          className="flex items-center justify-center whitespace-nowrap"
         >
           <a
-            className="cyberpunk-button xl:!overflow-visible mr-20 xl:mr-0  "
+            className="cyberpunk-button xl:!overflow-hidden mr-20 xl:mr-0  "
             href="https://docs.google.com/forms/d/e/1FAIpQLSeLvBYW50TyuCLsrWlVxI0tvcPW-p47fJ3XP-52NYUbDawhsg/viewform"
             target="_blank"
             rel="noreferrer"
