@@ -20,16 +20,13 @@ function Reveal({
   const slideControls = useAnimation();
   useEffect(() => {
     if (isInView) {
-  
       mainControls.start("visible");
       slideControls.start("visible");
-   
-     
     }
   }, [isInView]);
 
   return (
-    <div ref={ref} className={className || "relative overflow-hidden w-fit"}>
+    <div ref={ref} className={className || "relative w-fit"}>
       <motion.div
         variants={{
           hidden: { opacity: opacity, y: hiddenY, x: hiddenX, scale: scale },
@@ -37,7 +34,7 @@ function Reveal({
         }}
         initial={initial}
         animate={mainControls}
-        exit={'hidden'}
+        exit={"hidden"}
         transition={{ duration: duration, delay: delay }}
       >
         {children}
