@@ -70,8 +70,8 @@ function Contact() {
               </a>
             </div>
           </div>
-          <div className="flex-[1.5] h-full mt-[50px] text-white pr-5 xl:flex xl:flex-col md-max:w-3/5">
-            <h3 className="uppercase text-left text-white text-[30px] mb-5 md-max:text-center">
+          <div className="flex-[1.5] h-full mt-[50px] text-white pr-5 xl:flex xl:flex-col md-max:w-3/5 phone:text-sm">
+            <h3 className="uppercase text-left text-white text-[30px] mb-5 md-max:text-center phone:text-[20px]">
               Liên Hệ
             </h3>
             <div className="flex mb-1 phone:flex-wrap phone:mb-2">
@@ -149,7 +149,7 @@ function Contact() {
       </div>
       <div className="m-auto w-[90%] h-[1px] bg-slate-200"></div>
       <div className="flex flex-wrap w-full justify-between px-[5%] bg-black text-white py-6">
-        <div className="sm-max:w-full sm-max:flex sm-max:flex-col sm-max:items-center">
+        <div className="sm-max:w-full sm-max:flex sm-max:flex-col sm-max:items-center phone:text-sm">
           <div className="mb-1">
             Designed by{" "}
             <span className="font-bold">
@@ -196,7 +196,7 @@ function Contact() {
             </span>
           </div>
         </div>
-        <div className="sm-max:w-full sm-max:flex sm-max:flex-col sm-max:items-center sm-max:mt-2">
+        <div className="sm-max:w-full sm-max:flex sm-max:flex-col sm-max:items-center sm-max:mt-2 phone:text-sm">
           <p>
             © Copyright 2023 <span className="font-bold">Hub - Forum</span>
           </p>

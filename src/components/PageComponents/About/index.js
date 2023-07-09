@@ -20,7 +20,7 @@ function About() {
           delay={0.25}
           preanimation={true}
         >
-          <p className="text-justify text-[20px] leading-9 w-full phone:text-[16px]">
+          <p className="text-justify text-[20px] leading-9 w-full phone:text-base">
           Tiếp bước sự thành công của Hub Summit - The Vision. Dưới sự chỉ đạo của Thành Đoàn thành phố Hà Nội mạng lưới các clb khởi nghiệp, đổi mới sáng tạo và chuyển đổi số Hub Network phối hợp cùng Global Shaper Community tổ chức Hub Forum - The Execution là sự kiện hướng tới cộng đồng giải quyết các vấn đề xã hội và môi trường. Với mục đích tạo cơ hội để các Doanh nghiệp Xã hội, các chuyên gia và các nhà nghiên cứu lĩnh vực Công nghệ đổi mới sáng tạo được gặp gỡ, giao lưu và trao đổi kiến thức.
           </p>
         </Reveal>

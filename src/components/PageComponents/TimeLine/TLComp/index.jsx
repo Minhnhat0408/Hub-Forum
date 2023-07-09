@@ -31,8 +31,8 @@ function TLComp({ left = true,title,time,detail = [] }) {
               </div>
               <div className="flex flex-col">{ detail.map((d,id) => {
                 return <div key={id} className="flex items-start mb-2">
-                <Image src={image.ball} className="w-4 h-4 mr-2 mt-1" />
-                <p className="  text-slate-300 leading-7">
+                <Image src={image.ball} className="w-4 h-4 mr-2 mt-1 phone:w-3" />
+                <p className="  text-slate-300 leading-7 phone:text-sm">
                   {d}
                 </p>
               </div>
@@ -62,8 +62,8 @@ function TLComp({ left = true,title,time,detail = [] }) {
               </div>
               <div className="flex flex-col">{ detail.map((d,id) => {
                 return <div key={id} className="flex items-start mb-2">
-                <Image src={image.ball} className="w-4 h-4 mr-2 mt-1" />
-                <p className="  text-slate-300 leading-7">
+                <Image src={image.ball} className="w-4 h-4 mr-2 mt-1 phone:w-3" />
+                <p className="  text-slate-300 leading-7 phone:text-sm">
                   {d}
                 </p>
               </div>
