@@ -7,7 +7,8 @@ const image = {
   sponsor: require("./sponsor.png"),
   detail: require('./detail.png'),
   ava: require('./ava.png'),
-  ball:require('./ball.png')
+  ball:require('./ball.png'),
+  cover:require('./bg3.png')
 };
 
 export default image;

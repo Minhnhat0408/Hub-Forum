@@ -10,6 +10,8 @@ import AboutHosts from "./components/PageComponents/AboutHosts";
 import Contact from "./components/PageComponents/Contact";
 import { useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import Image from "./components/Utilites/Image/Image";
+import image from "./assets/images";
 function App() {
   const dangki = useRef(null);
   const [show,setShow] = useState(true)
@@ -25,8 +27,9 @@ function App() {
   }
   ,[isInView])
   return (
-    <div className="App bg-hand bg-fixed flex flex-col items-center h-fit">
-      <Navbar showApply={show} />
+    <div className="App bg-fixed flex flex-col items-center h-fit">
+      <Image src={image.cover} className=" fixed h-[100vh] w-[100vw] lg:object-cover -z-10 bg-black"/>     
+      <Navbar showApply={show} /> 
       <Cover />
       <About />
       <TimeLocation ref={dangki}/>
