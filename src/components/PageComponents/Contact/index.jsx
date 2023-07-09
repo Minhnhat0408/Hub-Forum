@@ -12,12 +12,12 @@ function Contact() {
   return (
     <section
       id="lienhe"
-      className="flex relative  flex-col w-full h-fit bg-black/60 pt-[110px]"
+      className="flex relative  flex-col w-full h-fit bg-black/60 pt-[110px] phone:pt-0"
     >
       <div className="flex pb-14 bg-black xl:flex-wrap xl:justify-center md-max:pb-5">
         <div className="w-[45%] xl:w-full flex items-center flex-col justify-center -ml-20 xl:ml-0 xl:mt-10">
-          <Image src={image.texecution} alt="ava" className="w-1/3  h-fit" />
-          <Image src={image.hubForum} alt="ava" className="w-1/2 h-fit" />
+          <Image src={image.texecution} alt="ava" className="w-1/3 xl:w-1/2 h-fit" />
+          <Image src={image.hubForum} alt="ava" className="w-1/2 xl:w-2/3 h-fit" />
         </div>
         <div className="flex xl:w-[90%] xl:justify-center">
           <div className="flex-1 h-full mt-[50px] xl:flex xl:flex-col xl:px-20 md-max:hidden">

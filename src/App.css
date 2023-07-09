@@ -26,14 +26,29 @@ body, html {
   -moz-background-size:  100% 100vh;
   -webkit-background-size: 100% 100vh;
   background-size:  100% 100vh;
+  
+  -o-background-attachment:  fixed;
+  -moz-background-attachment:  fixed;
+  -webkit-background-attachment: fixed;
   background-attachment: fixed;
   
-
 }
+
+
+
 @media (max-width: 1300px) {
   .bg-hand {
-      background-size: auto 100vh;
+    /* // auto 100vh */
+      -o-background-size: cover;
+      -moz-background-size:  cover;
+      -webkit-background-size: cover;
+      background-size: cover;
+      
+      -o-background-position:  top;
+      -moz-background-position:  top;
+      -webkit-background-position: top;
       background-position: top;
+      background-position-y: 0%;
   }
 }
 img {

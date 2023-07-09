@@ -6,3 +6,8 @@
 .clip-r{
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 88% 0);
 }
+.event-heading, .about-heading {
+  color: #fff; /* White text color */
+  text-shadow: 0 0 10px #8a2be2; /* Light purple text shadow */
+  -webkit-text-stroke: 1px #8a2be2; /* Purple border around text */
+}

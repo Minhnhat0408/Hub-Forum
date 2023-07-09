@@ -4,7 +4,7 @@ function TimeLine() {
   return (
     <section
       id="timeline"
-      className="flex flex-col w-full items-center bg-black/60 py-20"
+      className="flex flex-col w-full items-center bg-black/60 py-20 phone:py-10 phone:pb-0"
     >
       <div className="flex flex-col w-fit">
         <p className="font-bold text-[50px] event-heading font-nokia text-white phone:text-[30px] ">

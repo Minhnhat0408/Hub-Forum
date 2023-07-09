@@ -8,7 +8,7 @@ function AboutHosts() {
   return (
     <section
       id="doitac"
-      className="text-white overflow-hidden w-full pt-20 px-20 xl:px-7 bg-black/60"
+      className="text-white overflow-hidden w-full pt-20 px-20 xl:px-7 bg-black/60 sm-max:!py-8"
     >
       <Reveal
         hiddenX={500}
@@ -18,7 +18,7 @@ function AboutHosts() {
       </Reveal>
       <Reveal hiddenY={200}>
         <div className="flex justify-between flex-wrap ">
-          <div className="w-1/3 mb-20 sm2-max:mb-10 p-6 sm2-max:!w-full flex flex-col ">
+          <div className="w-1/3 mb-20 sm2-max:mb-10 p-6 phone:py-0 sm2-max:!w-full flex flex-col ">
             <Image
               src={logo.three}
               alt="logo"
@@ -29,25 +29,17 @@ function AboutHosts() {
             <div className="flex items-start mb-2">
               <Image src={image.ball} className="w-4 h-4 mr-2 mt-1" />
               <p className="  text-slate-300 leading-7">
-                Hỗ trợ và tư vấn các dự án khởi nghiệp cho thanh niên được bảo
-                trợ hợp pháp bởi chính quyền thành phố.
+              Mạng lưới hỗ trợ thanh niên khởi nghiệp hơn 20 trường đại học trên toàn quốc được bảo trợ hợp pháp bởi chính quyền thành phố
               </p>
             </div>
             <div className="flex items-start mb-2">
               <Image src={image.ball} className="w-4 h-4 mr-2 mt-1" />
               <p className="  text-slate-300 leading-7">
-                Hỗ trợ và tư vấn sự phát triển cho thanh niên khởi nghiệp.
-              </p>
-            </div>
-            <div className="flex items-start mb-2">
-              <Image src={image.ball} className="w-4 h-4 mr-2 mt-1" />
-              <p className="  text-slate-300 leading-7">
-                Hỗ trợ, đào tạo và cố vấn cho các trung tâm thanh niên và thành
-                viên.
+              Lan toả và nâng cao tinh thần khởi nghiệp cho người trẻ
               </p>
             </div>
           </div>
-          <div className="w-1/3 mb-20 sm2-max:mb-10 p-6 sm2-max:!w-full flex flex-col">
+          <div className="w-1/3 mb-20 sm2-max:mb-10 p-6 sm2-max:!w-full phone:py-0  flex flex-col">
             <Image
               src={logo.hubglobal}
               alt="logo"
@@ -73,7 +65,7 @@ function AboutHosts() {
               </p>
             </div>
           </div>
-          <div className="w-1/3 mb-20 sm2-max:mb-10 p-6 sm2-max:!w-full flex flex-col">
+          <div className="w-1/3 mb-20 sm2-max:mb-10 p-6 sm2-max:!w-full phone:py-0  flex flex-col">
             <Image
               src={logo.five}
               alt="logo"

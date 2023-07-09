@@ -16,8 +16,8 @@ function Programs() {
       </Reveal>
       <Reveal hiddenY={200}>
         <div className="flex flex-wrap justify-between phone:px-3">
-          <div className="w-[40%] sm2-max:w-full xl:w-[45%] mb-20">
-            <h3 className="font-bold text-xl sm2-max:ml-1 mb-7 w-[90%] sm2-max:w-full sm2-max:text-base">
+          <div className="w-[40%] sm2-max:w-full xl:w-[45%] mb-20 phone:mb-10">
+            <h3 className="font-bold text-xl sm2-max:ml-1 mb-7 w-[90%]  sm2-max:w-full sm2-max:text-base">
               Trao đổi học sinh trường TH, THCS và THPT Hy Vọng
             </h3>
             <div className="flex items-start mb-2">
@@ -35,7 +35,7 @@ function Programs() {
               </p>
             </div>
           </div>
-          <div className="w-[40%] sm2-max:w-full xl:w-[45%] mb-20">
+          <div className="w-[40%] sm2-max:w-full xl:w-[45%] mb-20 phone:mb-10">
             <h3 className="font-bold text-xl sm2-max:ml-1 mb-7 w-[90%] sm2-max:w-full sm2-max:text-base">
               Hội thảo: Thu hút đầu tư trong thị trường đỏ lửa
             </h3>
@@ -59,7 +59,7 @@ function Programs() {
               </p>
             </div>
           </div>
-          <div className="w-[40%] sm2-max:w-full xl:w-[45%] mb-20">
+          <div className="w-[40%] sm2-max:w-full xl:w-[45%] mb-20 phone:mb-10">
             <h3 className="font-bold text-xl sm2-max:ml-1 mb-7 w-[90%] sm2-max:w-full sm2-max:text-base">
               Hội thảo Web3.0 và đột phá trong lĩnh vực công nghệ tài chính
             </h3>
@@ -82,7 +82,7 @@ function Programs() {
               </p>
             </div>
           </div>
-          <div className="w-[40%] sm2-max:w-full xl:w-[45%] mb-20">
+          <div className="w-[40%] sm2-max:w-full xl:w-[45%] mb-20 phone:mb-10">
             <h3 className="font-bold text-xl sm2-max:ml-1 mb-7 w-[90%] sm2-max:w-full sm2-max:text-base">
               Hội thảo Ngôn ngữ của Dữ liệu
               <p className="text-transparent xl:hidden">

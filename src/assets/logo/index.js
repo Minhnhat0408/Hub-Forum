@@ -1,5 +1,5 @@
 const logo = {
-  three: require("./hubnetwork.png"),
+  three: require("./LOGO.png"),
   one: require("./LOGO-DOAN-1.png"),
   five: require("./Global Shapers Hanoi Hub logo.png"),
   four: require("./fpt.png"),

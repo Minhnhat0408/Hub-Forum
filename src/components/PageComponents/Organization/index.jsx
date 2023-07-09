@@ -4,7 +4,7 @@ import Image from "../../Utilites/Image";
 import Reveal from "../../Utilites/Reveal";
 function Organization() {
   return (
-    <div className="flex flex-wrap text-white justify-between items-center w-full bg-black/60 h-[52vh] lgx-max:h-full px-10 py-20">
+    <div className="flex flex-wrap text-white justify-between items-center w-full bg-black/60 h-[52vh] lgx-max:h-full px-10 py-20 phone:py-10">
       <Reveal
         duration={2}
         opacity={0}

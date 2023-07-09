@@ -5,7 +5,7 @@ import Reveal from "../../Utilites/Reveal";
 function MagicNumber() {
   return (
 
-      <div className="flex lgx-max:flex-wrap justify-around text-white w-full py-20 px-10 lgx-max:h-full">
+      <div className="flex lgx-max:flex-wrap justify-around text-white w-full py-20 px-10 phone:py-10 lgx-max:h-full">
         <Reveal className="w-[30%] lgx-max:w-1/3 sm-max:!w-full">
           <div className="w-full flex flex-col items-center whitespace-nowrap ">
             <Counter

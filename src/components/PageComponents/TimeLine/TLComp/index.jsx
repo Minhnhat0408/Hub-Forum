@@ -19,7 +19,7 @@ function TLComp({ left = true,title,time,detail = [] }) {
               className="flex flex-col p-6 bg-transparent text-white w-3/4 border-4 border-purple-500 rounded-xl before:absolute before:w-8 before:h-8 before:bg-white before:rotate-45 before:right-[-16px] sm-max:before:left-[34px]"
             >
               
-              <h3 className="font-bold text-2xl lg-min:text-lg flex items-center ">
+              <h3 className="font-bold font-nokia event-heading text-xl lg-min:text-base flex items-center ">
                 <FontAwesomeIcon
                   icon={faClock}
                   className="font-xl text-white mx-2"
@@ -50,7 +50,7 @@ function TLComp({ left = true,title,time,detail = [] }) {
               style={{ boxShadow: "0 0 15px 8px #8a2be2" }}
               className=" flex flex-col p-6 bg-transparent text-white w-3/4 border-4 border-purple-500 rounded-xl before:absolute before:w-8 before:h-8 before:bg-white before:rotate-45 before:left-[-16px] sm-max:before:left-[34px]"
             >
-              <h3 className="font-bold text-2xl flex items-center lg-min:text-lg">
+              <h3 className="font-bold font-nokia event-heading text-xl flex items-center lg-min:text-base">
                 <FontAwesomeIcon
                   icon={faClock}
                   className="font-xl text-white mx-2"

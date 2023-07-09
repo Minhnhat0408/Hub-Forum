@@ -5,7 +5,7 @@ import Image from "../../Utilites/Image"
 import Reveal from "../../Utilites/Reveal";
 function Cover() {
   return (
-    <div className="l:bg-[url('./assets/images/ava.png')] l:bg-[length:auto_70vh] xl:min-h-[70vh] bg-[length:100%_auto] xl:bg-[length:auto_70vh]  w-full cover bg-[url('./assets/images/cover.png')]  mt-20 flex relative items-center overflow-hidden justify-center">
+    <div className="l:bg-[url('./assets/images/ava.png')] l:bg-[length:auto_70vh] xl:min-h-[70vh] bg-[length:100%_auto] xl:bg-[length:auto_70vh]  w-full cover bg-[url('./assets/images/cover.png')]  mt-20 phone:mt-[60px] flex relative items-center overflow-hidden justify-center">
       <Reveal
           hiddenX={-500}
           hiddenY={0}

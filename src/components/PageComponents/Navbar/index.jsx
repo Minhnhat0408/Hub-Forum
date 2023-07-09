@@ -4,7 +4,7 @@ import Scrollspy from "react-scrollspy-highlight";
 import Reveal from "../../Utilites/Reveal";
 import { useEffect, useState } from "react";
 import { AnimatePresence } from "framer-motion";
-
+import "../../../App.css";
 function Navbar({ showApply }) {
   const [reload,setReload] = useState(showApply);
   useEffect(()=>{
@@ -18,11 +18,11 @@ function Navbar({ showApply }) {
     return () => clearInterval(timerid)
   },[showApply])
   return (
-    <div className="h-[80px] overflow-hidden bg-black/70 w-full flex phone:justify-between items-center fixed z-50 px-10 lg:px-4 phone:!px-1">
+    <div className="h-[80px] overflow-hidden bg-black/70 w-full flex phone:justify-between items-center fixed z-50 px-10 lg:px-4 phone:!h-[60px] phone:!px-1">
       <Image
         src={image.hubForum}
         alt="logo"
-        className="w-60 h-fit phone:w-[150px] phone:ml-1"
+        className="w-60 phone:w-[150px] phone:ml-1 h-auto"
         onClick = {() => {
           window.scrollTo({ top: 0, behavior: 'smooth' });
         }}
