@@ -20,7 +20,22 @@ body, html {
 
 }
 
+.bg-hand{
+  background:url('./assets/images/bg3.png') no-repeat #000000;
+  -o-background-size:  100% 100vh;
+  -moz-background-size:  100% 100vh;
+  -webkit-background-size: 100% 100vh;
+  background-size:  100% 100vh;
+  background-attachment: fixed;
+  
 
+}
+@media (max-width: 1300px) {
+  .bg-hand {
+      background-size: auto 100vh;
+      background-position: top;
+  }
+}
 img {
   user-select: none;
 }

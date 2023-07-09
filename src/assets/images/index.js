@@ -1,5 +1,4 @@
 const image = {
-  cover: require("./coverfull.png"),
   hubForum: require("./hub forum.png"),
   robotR: require("./robot 1.png"),
   robotL: require("./robot 2.png"),

@@ -21,11 +21,11 @@ function App() {
     }else{
       setShow(true)
     }
-
+ 
   }
   ,[isInView])
   return (
-    <div className="App bg-[url('./assets/images/bg3.png')] bg-no-repeat bg-fixed bg-[length:100%_100vh] lg:bg-top lg:bg-[length:auto_100vh]  flex flex-col items-center h-fit">
+    <div className="App bg-hand flex flex-col items-center h-fit">
       <Navbar showApply={show} />
       <Cover />
       <About />
