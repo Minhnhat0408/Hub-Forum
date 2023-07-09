@@ -39,10 +39,10 @@ body, html {
 @media (max-width: 1300px) {
   .bg-hand {
     /* // auto 100vh */
-      -o-background-size: cover;
-      -moz-background-size:  cover;
-      -webkit-background-size: cover;
-      background-size: cover;
+      -o-background-size: auto 100vh;
+      -moz-background-size:  auto 100vh;
+      -webkit-background-size: auto 100vh;
+      background-size: auto 100vh;
       
       -o-background-position:  top;
       -moz-background-position:  top;

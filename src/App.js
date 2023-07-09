@@ -25,7 +25,7 @@ function App() {
   }
   ,[isInView])
   return (
-    <div className="App bg-hand flex flex-col items-center h-fit">
+    <div className="App bg-hand bg-fixed flex flex-col items-center h-fit">
       <Navbar showApply={show} />
       <Cover />
       <About />
