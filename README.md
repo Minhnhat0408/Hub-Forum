@@ -1,3 +1,5 @@
+# Landing Page for a non-profitable organization Hub NetWork
+Basically just an invitation for the upcoming HUB FORUM - THE EXECUTION event on 19/7/2023
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
