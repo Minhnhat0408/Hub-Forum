@@ -99,7 +99,7 @@ function Contact() {
                   {`0979 128 351 (Mr. Long)`}
                 </div>
                 <div className="text-slate-300 leading-7">
-                  {`0965 053 420 (Mrs. Phuong)`}
+                  {`0965 053 420 (Ms. Phuong)`}
                 </div>
               </div>
             </div>

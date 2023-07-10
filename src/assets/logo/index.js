@@ -8,6 +8,7 @@ const logo = {
   six: require("./5.png"),
   nine: require("./8.png"),
   seven: require("./6.png"),
+  hubnetwork: require('./ava (1).png'),
   hubglobal:require('./hubglobal.png')
 };
 

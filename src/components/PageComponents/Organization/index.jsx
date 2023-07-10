@@ -41,7 +41,7 @@ function Organization() {
           </h2>
           <div className="flex items-center justify-between w-full">
             <Image
-              src={logo.three}
+              src={logo.hubnetwork}
               alt="logo"
               className="w-[30%] h-auto transform transition duration-500 hover:scale-125"
             />
