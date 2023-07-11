@@ -19,7 +19,12 @@ body, html {
     background-attachment: fixed;
 
 }
-
+@media (max-width: 500px) {
+  .cover {
+    background-position:top 60px center !important;
+    margin-top: 60px;
+  }
+}
 .bg-hand{
   background:url('./assets/images/bg3.png') no-repeat #000000;
   -o-background-size:  100% 100vh;
