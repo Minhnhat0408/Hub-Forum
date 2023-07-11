@@ -26,7 +26,7 @@ function Cover() {
             hiddenX={0}
             hiddenY={-400}
             scale={0}
-            className={"w-full  mt-10 xl:mt-20 flex-1 "}
+            className={"w-full  mt-10 flex-1 "}
           >
             <Image src={image.gsc} className="w-full h-fit xl:scale-150" alt="hub" />
           </Reveal>
@@ -34,7 +34,7 @@ function Cover() {
               delay={1.2}
               hiddenX={0}
               hiddenY={0}
-              className={"w-full absolute top-[40%]"}
+              className={"w-full flex-1"}
             >
               <Image
                 src={image.hubForum}
@@ -46,7 +46,7 @@ function Cover() {
             hiddenX={0} 
             hiddenY={400}
             scale={0}
-            className={"w-full"}
+            className={"w-full flex-1"}
           >
             <Image src={image.colorexecution} className="w-full h-fit xl:scale-150" alt="hub" />
           </Reveal>
