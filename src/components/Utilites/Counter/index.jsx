@@ -27,7 +27,7 @@ function Counter({ from, to, duration = 1, className, text = "" }) {
     <div ref={ref} className="text-[30px] font-bold flex items-center justify-center flex-col">
       <div className="flex ">
         <span ref={nodeRef} className={className} />
-        <span> +</span>
+        <span className="light-purple font-bold"> +</span>
       </div>
       <div>{text}</div>
     </div>

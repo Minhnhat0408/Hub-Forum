@@ -135,8 +135,8 @@ img {
   }
   
   .light-purple{
-    text-shadow: 0 0 3px #8a2be2; /* Light purple text shadow */
-    -webkit-text-stroke: 0.2px #8a2be2; /* Purple border around text */
+    text-shadow: 0 0 1px #8a2be2; /* Light purple text shadow */
+    -webkit-text-stroke: 0.1px #8a2be2; /* Purple border around text */
   }
   
   /* Track */

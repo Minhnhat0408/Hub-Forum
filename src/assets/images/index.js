@@ -8,7 +8,9 @@ const image = {
   detail: require('./detail.png'),
   ava: require('./ava.png'),
   ball:require('./ball.png'),
-  cover:require('./bg3.png')
+  cover:require('./bg3.png'),
+  colorexecution:require('./execution.png'),
+  gsc:require('./gsc.png')
 };
 
 export default image;

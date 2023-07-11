@@ -26,21 +26,29 @@ function Cover() {
             hiddenX={0}
             hiddenY={-400}
             scale={0}
-            className={"w-full  mt-10 xl:mt-20 flex-1"}
+            className={"w-full  mt-10 xl:mt-20 flex-1 "}
           >
-            <Image src={image.mexecution} className="w-full h-fit xl:scale-150" alt="hub" />
+            <Image src={image.gsc} className="w-full h-fit xl:scale-150" alt="hub" />
           </Reveal>
+            <Reveal
+              delay={1.2}
+              hiddenX={0}
+              hiddenY={0}
+              className={"w-full absolute top-[40%]"}
+            >
+              <Image
+                src={image.hubForum}
+                className="w-full scale-110 xl:scale-[200%] h-fit"
+                alt="hub"
+              />
+            </Reveal>
           <Reveal
-            delay={1.2}
-            hiddenX={0}
-            hiddenY={0}
-            className={"w-full absolute top-1/2"}
+            hiddenX={0} 
+            hiddenY={400}
+            scale={0}
+            className={"w-full"}
           >
-            <Image
-              src={image.hubForum}
-              className="w-full scale-125 xl:scale-[200%] h-fit"
-              alt="hub"
-            />
+            <Image src={image.colorexecution} className="w-full h-fit xl:scale-150" alt="hub" />
           </Reveal>
           <Reveal hiddenX={0} hiddenY={400} scale={0} className={"w-1/4 xl:w-1/2 mb-2 xl:mb-14"}>
             <Image src={image.detail} className="w-full h-fit" alt="hub" />

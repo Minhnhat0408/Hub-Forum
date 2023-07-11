@@ -12,7 +12,7 @@ function MagicNumber() {
               from={0}
               to={22}
               duration={2}
-              className="font-bold text-[50px] light-purple"
+              className="font-bold font-nokia event-heading text-[40px] light-purple"
               text="Trường Đại Học"
             />
           </div>
@@ -23,7 +23,7 @@ function MagicNumber() {
               from={0}
               to={400}
               duration={2}
-              className="font-bold text-[50px] light-purple"
+              className="font-bold font-nokia event-heading text-[40px] light-purple"
               text="Sinh viên Bắc Nam"
             />
           </div>
@@ -34,7 +34,7 @@ function MagicNumber() {
               from={0}
               to={40}
               duration={2}
-              className="font-bold text-[50px] light-purple"
+              className="font-bold font-nokia event-heading text-[40px] light-purple"
               text="Doanh Nghiệp"
             />
           </div>

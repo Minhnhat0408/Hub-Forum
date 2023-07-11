@@ -14,7 +14,7 @@ function Contact() {
       id="lienhe"
       className="flex relative  flex-col w-full h-fit bg-black/60 pt-[110px] phone:pt-0"
     >
-      <div className="flex pb-14 bg-black xl:flex-wrap xl:justify-center md-max:pb-5">
+      <div className="flex pb-14 bg-black xl:flex-wrap xl:justify-center md-max:pb-5 w-full">
         <div className="w-[45%] xl:w-full flex items-center flex-col justify-center -ml-20 xl:ml-0 xl:mt-10">
           <Image src={image.texecution} alt="ava" className="w-1/3 xl:w-1/2 h-fit" />
           <Image src={image.hubForum} alt="ava" className="w-1/2 xl:w-2/3 h-fit" />
@@ -95,11 +95,11 @@ function Contact() {
                 <div className="font-bold">Hotline: </div>
               </div>
               <div>
-                <div className="text-slate-300 leading-7 phone:w-full">
-                  {`0979 128 351 (Mr. Long)`}
-                </div>
                 <div className="text-slate-300 leading-7">
-                  {`0965 053 420 (Ms. Phuong)`}
+                  {`0966 888 615 (Mr. Hieu / CEO Top CV / President of GSC)`}
+                </div>
+                <div className="text-slate-300 leading-7 phone:w-full">
+                  {`0979 128 351 (Mr. Long / President of Hub Network)`}
                 </div>
               </div>
             </div>
@@ -113,10 +113,10 @@ function Contact() {
               </div>
               <div className="phone:w-full">
                 <div className="text-slate-300 leading-7">
-                  longngh.hubnetwork@gmail.com
+                hieutran@topcv.vn
                 </div>
                 <div className="text-slate-300 leading-7">
-                  thuphuong.hubnetwork@gmail.com
+                  longngh.hubnetwork@gmail.com
                 </div>
               </div>
             </div>
@@ -135,9 +135,15 @@ function Contact() {
                 </svg>
                 <div className="font-bold">Fanpage: </div>
               </div>
-              <div className="text-blue-600 hover:text-white leading-7 phone:w-full">
+              <div className="text-blue-600 leading-7 phone:w-full ">
                 <a
-                  className="no-underline hover:underline "
+                  className="no-underline hover:underline block hover:text-white phone:mt-1"
+                  href="https://www.facebook.com/GlobalShapersHanoiHub"
+                >
+                  WEF Global Shapers Hanoi Hub
+                </a>
+                <a
+                  className="no-underline hover:underline hover:text-white"
                   href="https://www.facebook.com/unihubnetwork"
                 >
                   Hub Network
