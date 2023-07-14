@@ -38,7 +38,7 @@ function TimeLine() {
             ]}
           />
           <TLComp
-            title={"Lễ ra mắt mạng lưới Hub Network miền Nam"}
+            title={"Lễ ra mắt mạng lưới Hub Network Việt Nam"}
             time={"10h40 - 10h50"}
           />
           <TLComp
