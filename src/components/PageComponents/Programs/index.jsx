@@ -12,7 +12,7 @@ function Programs() {
         hiddenX={-500}
         className="uppercase event-heading font-nokia text-left text-[40px] mb-[60px] xl:text-[30px] xl:text-center sm-max:!text-[21px] sm2-max:mt-10"
       >
-        <h1>Các chương trình</h1>
+        <h1>chương trình</h1>
       </Reveal>
       <Reveal hiddenY={200}>
         <div className="flex flex-wrap justify-between phone:px-3">

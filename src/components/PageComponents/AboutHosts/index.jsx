@@ -8,13 +8,13 @@ function AboutHosts() {
   return (
     <section
       id="doitac"
-      className="text-white overflow-hidden w-full pt-20 px-20 xl:px-7 bg-black/60 sm-max:!py-8"
+      className="text-white overflow-hidden w-full pt-20 px-20 xl:px-7  sm-max:!py-8"
     >
       <Reveal
         hiddenX={500}
         className="uppercase event-heading text-right font-nokia text-[40px] mb-[60px]  xl:text-[30px] xl:text-center sm-max:!text-[21px] sm2-max:mt-10"
       >
-        <h1>Các Đơn Vị Triển Khai</h1>
+        <h1>Đơn Vị Triển Khai</h1>
       </Reveal>
       <Reveal hiddenY={200}>
         <div className="flex justify-between flex-wrap ">

@@ -10,7 +10,9 @@ const image = {
   ball:require('./ball.png'),
   cover:require('./bg3.png'),
   colorexecution:require('./execution.png'),
-  gsc:require('./gsc.png')
+  gsc:require('./gsc.png'),
+  tai:require('./TUG09159.jpg'),
+  son:require('./IMG_9565.JPG'),
 };
 
 export default image;

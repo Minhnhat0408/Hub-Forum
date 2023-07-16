@@ -14,6 +14,7 @@ module.exports = {
         "lgx-max": { max: "1050px" },
         "lg-min":{max:'819px'},
         "xl-max": { max: "1279px" },
+        'xxl-min':{min:"1279px"},
         "sm2-max": { max: "716px" },
         "lg-between": { max: "1050px", min: "940px" },
         "xl-between": { max: "1279px", min: "1024px" },

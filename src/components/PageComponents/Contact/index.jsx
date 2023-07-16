@@ -12,7 +12,7 @@ function Contact() {
   return (
     <section
       id="lienhe"
-      className="flex relative  flex-col w-full h-fit bg-black/60 pt-[110px] phone:pt-0"
+      className="flex relative  flex-col w-full h-fit  phone:pt-0"
     >
       <div className="flex pb-14 bg-black xl:flex-wrap xl:justify-center md-max:pb-5 w-full">
         <div className="w-[45%] xl:w-full flex items-center flex-col justify-center -ml-20 xl:ml-0 xl:mt-10">

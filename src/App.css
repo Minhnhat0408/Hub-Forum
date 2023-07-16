@@ -221,4 +221,68 @@ div {
 }
   
   
+.floating-box-animation {
+
+  animation: floatAnimation 3s infinite;
+}
+
+.floating-box-animation-delay {
+
+  animation: floatAnimation 3s infinite;
+  animation-delay: 1.5s;
+}
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.tai{
+  background: url(./assets/images/TUG09159.jpg) no-repeat black;
+  border-radius: 35px;
+  background-size: cover;
+  position: relative;
+}
+
+.tai::before{
+  content: '';
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 1;
+  z-index: -1;
+  position: absolute;
+  background: inherit;
+  filter:blur(15px);
   
+}
+
+.son{
+  background: url(./assets/images/IMG_9565.JPG) no-repeat black;
+  border-radius: 35px;
+  background-size: cover;
+  position: relative;
+}
+
+.son::before{
+  content: '';
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 1;
+  z-index: -1;
+  position: absolute;
+  background: inherit;
+  filter:blur(15px);
+  
+}

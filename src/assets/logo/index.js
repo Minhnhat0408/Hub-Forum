@@ -9,7 +9,11 @@ const logo = {
   nine: require("./8.png"),
   seven: require("./6.png"),
   hubnetwork: require('./ava (1).png'),
-  hubglobal:require('./hubglobal.png')
+  hubglobal:require('./hubglobal.png'),
+  coffuel: require("./Logo Coffuel vàng nền xanh.png"),
+  touree: require("./LOGO TOUREE-05 (3).png"),
+  navi: require('./LogoV2.png'),
+  nerd:require('./WHITE1.png'),
 };
 
 export default logo;
