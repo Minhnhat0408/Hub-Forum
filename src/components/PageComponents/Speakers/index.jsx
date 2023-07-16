@@ -4,10 +4,10 @@ import Image from '../../Utilites/Image/Image';
 import Tilt from 'react-parallax-tilt';
 import Reveal from '../../Utilites/Reveal';
 function Speakers() {
-    return ( <div className='flex flex-col w-full text-white bg-black/60 h-fit py-20 px-10'>
+    return ( <div className='flex flex-col w-full text-white bg-black/60 h-fit xl-max:px-7 sm-max:!py-8 py-20 px-10 '>
           <Reveal
         hiddenX={-500}
-        className="uppercase event-heading font-nokia text-center text-[50px] mb-[60px] xl:text-[30px] xl:text-center sm-max:!text-[21px] sm2-max:mt-10"
+        className="uppercase event-heading font-nokia text-center text-[50px] mb-[60px] xl:text-[30px] sm2-max:mb-10 xl:text-center sm-max:!text-[21px] sm2-max:mt-2"
       >
         <h1>Diễn Giả</h1>
       </Reveal>
