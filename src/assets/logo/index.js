@@ -14,6 +14,8 @@ const logo = {
   touree: require("./LOGO TOUREE-05 (3).png"),
   navi: require('./LogoV2.png'),
   nerd:require('./WHITE1.png'),
+  ihub:require('./Logo iHub-01.png'),
+  meta:require('./meta.jpg')
 };
 
 export default logo;
