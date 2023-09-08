@@ -1,8 +1,6 @@
-
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
 <a name="readme-top"></a>
-
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -47,16 +45,20 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-Dưới sự chỉ đạo của Thành Đoàn thành phố Hà Nội  Global Shaper Community phối hợp cùng mạng lưới các clb khởi nghiệp, đổi mới sáng tạo và chuyển đổi số Hub Network và Tập Đoàn FPT đã tổ chức Đại hội đại biểu Câu lạc bộ Kiến tạo Địa cầu, nhiệm kỳ 2023 - 2025 và Hub Forum - The Execution, là sự kiện hướng tới cộng đồng giải quyết các vấn đề xã hội và môi trường. Với mục đích tạo cơ hội để các Doanh nghiệp Xã hội, các chuyên gia và các nhà nghiên cứu lĩnh vực Công nghệ đổi mới sáng tạo được gặp gỡ, giao lưu và trao đổi kiến thức.
+
+Dưới sự chỉ đạo của Thành Đoàn thành phố Hà Nội Global Shaper Community phối hợp cùng mạng lưới các clb khởi nghiệp, đổi mới sáng tạo và chuyển đổi số Hub Network và Tập Đoàn FPT đã tổ chức Đại hội đại biểu Câu lạc bộ Kiến tạo Địa cầu, nhiệm kỳ 2023 - 2025 và Hub Forum - The Execution, là sự kiện hướng tới cộng đồng giải quyết các vấn đề xã hội và môi trường. Với mục đích tạo cơ hội để các Doanh nghiệp Xã hội, các chuyên gia và các nhà nghiên cứu lĩnh vực Công nghệ đổi mới sáng tạo được gặp gỡ, giao lưu và trao đổi kiến thức.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## My Role
+
 - I'm the leader, designer and frontend dev of this project. Throughout the project I have learnt alot about animation and how a landing page supposed to look like. Hope you guys enjoy it and apply for the event
+
 ### Built With
--   ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
--   ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
--   ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
+
+- ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,7 +136,7 @@ Project Link: [Hub Forum](https://github.com/Minhnhat0408/Hub-Forum)
 [issues-shield]: https://img.shields.io/github/issues/Minhnhat0408/Hub-Forum.svg?style=for-the-badge
 [issues-url]: https://github.com/Minhnhat0408/Hub-Forum/issues
 [license-shield]: https://img.shields.io/github/license/Minhnhat0408/Hub-Forum.svg?style=for-the-badge
-[license-url]: https://github.com/Minhnhat0408/Hub-Forum/blob/master/LICENSE.txt
+[license-url]: https://github.com/Minhnhat0408/Hub-Forum/blob/main/LICENSE.txt
 [product-screenshot]: images/screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
