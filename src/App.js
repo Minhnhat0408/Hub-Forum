@@ -28,6 +28,7 @@ function App() {
 
   return (
     <div className="App flex flex-col items-center h-fit">
+   
       <Image
         src={image.cover}
         className=" fixed h-[100vh] w-[100vw] lg:object-cover -z-10 bg-black"
@@ -40,7 +41,7 @@ function App() {
       <MagicNumber />
       <TimeLine />
       <Programs />
-      <Speakers/>
+      <Speakers />
       <Exhibitions />
       <AboutHosts />
       <Contact />
